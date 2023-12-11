@@ -87,6 +87,7 @@ public class UserController {
         if(list.size()<=0){
             return Result.fail();
         }else {
+            System.out.println("hello world!!!!");
             return Result.suc();
         }
    }
